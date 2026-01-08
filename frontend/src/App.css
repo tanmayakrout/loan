@@ -1,0 +1,107 @@
+body {
+  background: #eef3f7;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #003366;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -10px;
+  color: #666;
+  font-size: 16px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #004488;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #cdd7e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: #004c99;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.history-title {
+  margin-top: 40px;
+  font-size: 26px;
+  color: #003366;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: left;
+}
+
+.table th {
+  background: #003366;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background: #dde6f3;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
